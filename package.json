@@ -1,0 +1,38 @@
+{
+  "name":"sails-hook-lifecycle",
+  "version":"0.1.1",
+  "description":"Sails hook which extends the builtin lifecycles with criteria.",
+  "author":{
+    "name":"Coruscate Solutions"
+  },
+  "contributors":[
+
+  ],
+  "dependencies":{
+    "async":"^2.1.4",
+    "lodash":"~4.17.5",
+    "sails-hook-orm":"^1.0.9",
+    "waterline":"^0.11.6"
+  },
+  "devDependencies":{
+    "grunt":"^1.0.1",
+    "sails":"~1.0.1"
+  },
+  "engines":{
+    "node":">= 4.0.0"
+  },
+  "keywords":[
+    "sails",
+    "lifecycle",
+    "sails.js",
+    "sails-hook",
+    "hook",
+    "waterline"
+  ],
+  "license":"MIT",
+  "main":"index.js",
+  "sails":{
+    "isHook":true,
+    "hookName":"lifecycle"
+  }
+}
