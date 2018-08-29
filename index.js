@@ -18,6 +18,7 @@ module.exports = function (sails) {
                     update: path.resolve(__dirname, 'lib/query/dql/update'),
                     create: path.resolve(__dirname, 'lib/query/dql/create'),
                     destroy: path.resolve(__dirname, 'lib/query/dql/destroy'),
+                    'create-each': path.resolve(__dirname, 'lib/query/dql/create-each'),
                 }
             }
         },
@@ -39,6 +40,7 @@ module.exports = function (sails) {
                     sails.models[model].update = require(config.paths.update);
                     sails.models[model].create = require(config.paths.create);
                     sails.models[model].destroy = require(config.paths.destroy);
+                    sails.models[model].createEach = require(config.paths['create-each']);
                 }
 
                 // Initialized
