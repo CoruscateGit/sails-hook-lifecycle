@@ -12,7 +12,7 @@
     "async":"^2.1.4",
     "lodash":"~4.17.5",
     "sails-hook-orm":"^1.0.9",
-    "waterline":"^0.11.6"
+    "waterline":"git+https://github.com/CoruscateGit/waterline.git"
   },
   "devDependencies":{
     "grunt":"^1.0.1",
